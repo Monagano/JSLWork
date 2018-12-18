@@ -4,7 +4,7 @@
 Spring Bootを使用したWebサービスの開発
 
 ## Description
-
+社内の工数管理を行うWebサービスを開発する。
 ## Demo
 まだない
 ## Requirement
