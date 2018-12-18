@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+こんにちは
+<span th:text="${abc}"></span>
+<form role="form" action="#" th:action="@{/}" method="post" th:object="${detail}">
+<p>Name: <input type="text" th:field="*{Name}" /></p>
+<p>ID: <input type="text" th:field="*{ID}" /></p>
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
